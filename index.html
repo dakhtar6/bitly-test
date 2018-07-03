@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bitly Test</title>
+    <meta name="viewport" content="width=device-width" charset="utf-8">
+    <link href='./main.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">TOUR</a>
+        <a href="#">ENTERPRISE</a>
+        <a href="#">RESOURCES</a>
+        <a href="#">ABOUT</a>
+      </nav>
+    </header>
+    <div id="caption-container" class="container">
+      <h1>SHORTEN. SHARE. MEASURE</h1>
+      <h6>Join Bitly, the world's leading link management platform</h6>
+    </div>
+    <div id="form-container" class="container">
+      <form id="link-submit" method="POST">
+        <fieldset>
+          <input placeholder="Place a link to shorten it..." id="input" type="text">
+          <button id="button" type="submit" form="link-submit" value="shorten">shorten</button>
+        </fieldset>
+      </form>
+    </div>
+    <div id="list-container" class="container">
+      <ul id="list" class="container"></ul> 
+    </div> 
+    <script src="./sdk.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

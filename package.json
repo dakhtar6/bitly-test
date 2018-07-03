@@ -1,0 +1,21 @@
+{
+  "name": "bitly-test",
+  "version": "1.0.0",
+  "description": "A reconstruction of bitly's link shortener, used as a code test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "bitly"
+  ],
+  "author": "Daneyal Akhtar",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2"
+  }
+}
